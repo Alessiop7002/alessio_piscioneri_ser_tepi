@@ -2,7 +2,7 @@
 Qui sono contenuti gli appunti presi a lezione.
 
 
- * [Sito del diario](file:///Users/pino/Library/Mobile%20Documents/com~apple~CloudDocs/MacintoshWeb/Documenti/Scuola/Informatica/repo1/Alessiop7002.github.io/index.html)
+[Sito del diario](https://alessiop7002.github.io/alessio_piscioneri_ser_tepi/)
 
 
 
