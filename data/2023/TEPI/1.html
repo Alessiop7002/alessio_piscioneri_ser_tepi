@@ -1,0 +1,56 @@
+<div class="lezione">
+    <h1>Lo schema del sistema di comunicazione</h1>
+    <p id="definizione">"La comunicazione permette di <strong id="yellow">interagire</strong>  con gli altri e trasmettere un messaggio."</p>
+    <br>
+    <p><strong>1.</strong> Il <strong id="blue">mittente</strong> invia un <strong id="blue">messaggio</strong> (informazione).</p>
+    <p><strong>2.</strong> Il messaggio viene trasmesso attraverso un <strong id="blue">canale di comunicazione</strong> (voce, rete, rame, fibra ottica...).</p>
+    <p><strong>3.</strong> Al <strong id="blue">ricevente</strong> viene trasmesso il messaggio.</p>
+    <br>
+    <p>I componenti devono lavorare <strong id="yellow">sinergicamente</strong> per trasmettere il messaggio.</p>
+    <br>
+    <p><strong>-</strong> La <strong id="blue">sorgente</strong> fornisce un messaggio <strong id="green">ben formulato</strong> (Alice fornisce in input "CIAO").</p>
+    <p><strong>-</strong> Il <strong id="blue">trasmettitore</strong> deve <strong id="blue">codificare</strong> correttamente il messaggio (la C diventa 0101011).</p>
+    <p><strong>-</strong> Il messaggio codificato passa attraverso ad un <strong id="blue">canale trasmissivo</strong> dove il rumore può distorcere il messaggio (0101011 può diventare 1101011).</p>
+    <p><strong>-</strong> Il <strong id="blue">decodificatore</strong> traduce il codice in un messaggio per il ricevente (0101011 torna C e viene letto da Bob).</p>
+    <br>
+    <p id="definizione">"Il <strong id="blue">canale trasmissivo</strong> è il mezzo che permette di far passare il segnale tra due punti anche lontani."</p>
+    <br>
+    <p><strong id="red">Larghezza di banda:</strong> Quantità di dati trasportabili da un canale in un certo intervallo di tempo. Più è larga, più dati passano in meno tempo.</p>
+    <p><strong id="red">Attenuazione:</strong> Indebolimento di intensità del segnale all'aumentare della distanza. Si può combattere amplificando il segnale durante il percorso.</p>
+</div>
+
+<style>
+    .lezione{
+        font-family: monospace;
+        color: #000;
+        font-size: 16px;
+    }
+    p{
+        margin-left: 10%;
+    }
+    #yellow{
+        background-color: rgba(222, 255, 4, 0.762);
+    }
+    #blue{
+        background-color: rgba(4, 63, 255, 0.762);
+        color: #fff;
+    }
+    #red{
+        background-color: rgba(255, 4, 4, 0.673);
+    }
+    #green{
+        background-color: rgba(4, 255, 54, 0.762);
+    }
+    #purple{
+        background-color: rgba(238, 4, 255, 0.762);
+    }
+    #definizione{
+        font-style: italic;
+        font-size: 20px;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+   
+</style>
