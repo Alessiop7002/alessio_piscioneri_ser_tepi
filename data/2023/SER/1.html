@@ -1,2 +1,71 @@
-<h1>SER lezione 1</h1>
-<p>Questa &egrave; la prima lezione!</p>
+<div class="lezione">
+    <h1>I Sistemi</h1>
+    <p id="definizione">"Un sistema è una pluralità di <strong id="green">elementi collegati tra loro</strong> per eseguire una determinata azione.</p>
+    <br>
+    <p>I sistemi posssono essere <strong id="blue">APERTI, CHIUSI o ISOLATI.</strong></p>
+    <h3>Sistema Aperto:</h3>
+    <p>È in grado di interagire con l'ambiente grazie allo <strong id="green">scambio di informazioni</strong> attraverso delle <strong id="blue">porte</strong>.</p>
+    <p>Sono ancora suddivisi in <strong id="blue">DINAMICI, DISCRETI e INVARIANTI.</strong></p>
+    <p><strong>- Dinamici:</strong> variano nel tempo in base all'input.</p>
+    <p><strong>- Discreti:</strong> assumono valori discreti e non continui (non hanno valori intermedi).</p>
+    <p><strong>- Invarianti:</strong> svolgono la stessa operazione indiperndentemente dall'input.</p>
+    <br>
+    <p>Si classificano anche in Combinatori e Sequenziali:</p>
+    <p><strong>- Combinatori:</strong> le uscite sono determinate univocamente dalle <strong id="blue">variabili in ingresso</strong> e <strong id="blue">dallo stato in cui si trova il sistema</strong>.</p>
+    <p><strong>- Sequenziali:</strong> le uscite sono determinate dagli stati precedenti e dagli ingressi per determinare lo <strong id="blue">stato futuro</strong> (posseggono una memoria).</p>
+    <br>
+    <h3>Automa:</h3>
+    <p>È un sistema dinamico, discreto, invariante con insiemi di ingresso e uscita finiti.</p>
+    <h3>Automa a stati finiti:</h3>
+    <p>È un modello matematico di un sistema che può trovarsi in uno dei diversi stati finiti.</p>
+
+    <h3>Componenti:</h3>
+    <p><strong>- Insieme di stati (Q): </strong>condizioni in cui può trovarsi l'automa.</p>
+    <p><strong>- Insieme di input (∑): </strong>possibili input che l'automa può ricevere.</p>
+    <p><strong>- Funzione di transizione (δ): </strong>cambiamento dell'automa in risposta all'input.</p>
+    <p><strong>- Stato iniziale (q0): </strong>stato dell'automa ad inizio esecuzione.</p>
+    <p><strong>- Insieme di stati finali (F): </strong>stati in cui l'automa completa il processo e accetta l'input.</p>
+
+
+
+</div>
+    
+
+<style>
+    .lezione{
+        font-family: monospace;
+        color: #000;
+        font-size: 16px;
+    }
+    p{
+        margin-left: 10%;
+    }
+    h3{
+        margin-left: 10%;
+    }
+    #yellow{
+        background-color: rgba(222, 255, 4, 0.762);
+    }
+    #blue{
+        background-color: rgba(4, 63, 255, 0.762);
+        color: #fff;
+    }
+    #red{
+        background-color: rgba(255, 4, 4, 0.673);
+    }
+    #green{
+        background-color: rgba(4, 255, 54, 0.762);
+    }
+    #purple{
+        background-color: rgba(238, 4, 255, 0.762);
+    }
+    #definizione{
+        font-style: italic;
+        font-size: 20px;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+   
+</style>

@@ -1,10 +1,10 @@
 {
   "lessons": [
     {
-      "date": "12/09/2023",
+      "date": "15/09/2023",
       "title": "Lezione 1",
       "text": "1.html",
-      "text_made_by": "Paolino Paperino",
+      "text_made_by": "Alessio Piscioneri",
       "questions": "1_questions.json"
     },
     {
